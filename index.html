@@ -1,27 +1,75 @@
-<!DOCTYPE html>
+<!DOCTYPR html>
+
 <html lang="en">
     <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="icon" type="image/png" href="./img/CILKGax.png" />
-        <!-- 1. Tiêu đề của file index -->
-        <title>Happy birthday</title>
-        <link rel="stylesheet" href="./css/style.css" />
+        <meta charset="UTF-8">
+        <title>video by nghiem tv</title>
+        
+        <link rel="stylesheet" href="css/style.css">
+        
     </head>
-    <body class="page__main">
-        <div class="buttons">
-            <!-- Chữ ở menu bạn có thể sửa lại theo ý của bạn -->
-            <a href="index.html" class="btn btn-bir">Sinh nhật</a>
-            <a href="gallery.html" class="btn btn-gallery">Ảnh kĩ niệm</a>
+    <body>
+        <div class='moon'>
+            <div class='crater1'></div>
+            <div class='crater2'></div>
+            <div class='crater3'></div>
         </div>
-
-        <!-- 2. Phần ảnh của người bạn mún chúc -->
-        <img src="./img/MyAvatar.jpg" alt="" class="cover" />
-
-        <!-- 3. Phần nhạc -->
-        <audio id="player" autoplay loop>
-            <source src="./music/music.mp3" type="audio/mp3" />
-        </audio>
+        
+        <canvas id="canvas"></canvas>                                                                                                                                                                                                                                                                                            
+        
+        <div id="sea"></div>
+        <div id="beach"></div>
+        
+        <img src="https://dl.dropbox.com/s/2k0mtrxc2dqurmh/jumping.png" alt="Jumping-people" id="people" />
+        
+        <div id="merrywrap" class="merrywrap">
+            <div class="giftbox">
+                <div class="cover">
+                    <div></div>
+                </div>
+                
+                <div class="box"></div>
+            </div>
+            
+            <div class="icons">
+                <div class="row">
+                    <span>H</span>
+                    <span>a</span>
+                    <span>p</span>
+                    <span>p</span>
+                    <span>y</span>
+                    
+                </div>
+                <div class="row">
+                    <span>B</span>
+                    <span>i</span>
+                    <span>r</span>
+                    <span>t</span>
+                    <span>h</span>
+                    <span>d</span>
+                    <span>a</span>
+                    <span>y</span>
+                </div>
+                
+                <div class="row">
+                    <span>H</span>
+                    <span>i</span>
+                    <span>ế</span>
+                    <span>u</span>
+                </div>
+                <div class="row">
+                    <span>Chúc Hiếu sống lâu 100 tuổi nhé.. !</span>
+                </div>
+                <div class="row">
+                    <span>Nhớ sống sót qua mùa dịch này nhớ.. :v</span>
+                </div>
+            </div>
+        </div>
+        
+        <div id="video"></div>
+        
+        
+        <script src="js/index.js"></script>
+        
     </body>
 </html>
